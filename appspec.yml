@@ -4,5 +4,7 @@ os: linux
 files:
   - source: /
     destination: /usr/share/nginx/html
-
+hooks:
+  BeforeInstall:
+    - location: DeploymentScripts/CleanDir.sh
 
