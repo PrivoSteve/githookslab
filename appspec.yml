@@ -6,5 +6,5 @@ files:
     destination: /usr/share/nginx/html
 hooks:
   BeforeInstall:
-    - location: DeploymentScripts/CleanDir.sh
+    - location: scripts/CleanDir.sh
 
